@@ -1,5 +1,9 @@
-
-
+import quizImg from "../images/Quiz.PNG"
+import amazonImg from "../images/Amazon.PNG"
+import calculatorImg from "../images/Calculator.PNG"
+import todolistImg from "../images/Todolist.PNG"
+import weatherImg from "../images/WeatherApp.PNG"
+import foodImg from "../images/Food.PNG"
 
 export const Bio = {
   name: "Rodrigo Eccel Colombini",
@@ -292,8 +296,7 @@ export const projects = [
     date: "Nov 2023 - Dez 2023",
     description:
       "Welcome to an exciting quiz game built with React! Test your knowledge across various categories as you progress through different levels of difficulty. This app offers a thrilling experience with a time constraint for each question, adding an extra layer of challenge. Challenge yourself to reach the ultimate level and become a trivia master!",
-    image:
-      "https://private-user-images.githubusercontent.com/126830408/298080763-056effb0-dff7-4311-ab84-19d8b3d33a93.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU2NzA4NjIsIm5iZiI6MTcwNTY3MDU2MiwicGF0aCI6Ii8xMjY4MzA0MDgvMjk4MDgwNzYzLTA1NmVmZmIwLWRmZjctNDMxMS1hYjg0LTE5ZDhiM2QzM2E5My5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExOVQxMzIyNDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMzEyYzcyY2I5OWU3ODQ3NWIxNjQ4NzE1YzBiNGYyOTMyOGE1YzJiYzQzMjU2MzdiYTExN2Y5NGMyNzE4OGE2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Oqy4ayEro9kuMLUh85ZvWHiucwmgMxUSp92DAawi-OE",
+    image:quizImg,
     tags: [
       "React",
       "JavaScript",
@@ -312,8 +315,7 @@ export const projects = [
     date: "Oct 2023 - Oct 2023",
     description:
       "Welcome to the Weather App, a sleek and intuitive application built with React to provide you with up-to-date weather information at your fingertips. Seamlessly combining modern design with powerful functionality, this app lets you effortlessly check the weather for any location",
-    image:
-      "https://private-user-images.githubusercontent.com/126830408/298084736-5198477e-d970-445b-99fc-3ed535c6b679.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU2NzE4NTEsIm5iZiI6MTcwNTY3MTU1MSwicGF0aCI6Ii8xMjY4MzA0MDgvMjk4MDg0NzM2LTUxOTg0NzdlLWQ5NzAtNDQ1Yi05OWZjLTNlZDUzNWM2YjY3OS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExOVQxMzM5MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZTIyMmU3MzFiMzc2ZGM2YTZhYzE4ZjU3YWRkMTllMWEwN2IwZGZjYTE1OGFhYTE3MjM5YTQxMjFmNmVjOGI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.itOSaEv_4eYLUd81dsS3jbYsSA7H2BEFZu90tcK6JM8",
+    image: weatherImg,
     tags: ["React", "Tailwind CSS", "HTML", "Context API", "SVG Icons", "Redux"],
     category: "web app",
     github: "https://github.com/RECdigo/weather",
@@ -326,7 +328,7 @@ export const projects = [
     date: "Set 2023 - Oct 2023",
     description:
       "This user-friendly calculator ensures a smooth and intuitive experience, making calculations a breeze.",
-    image: "https://private-user-images.githubusercontent.com/126830408/298089202-b56b360b-ca01-4938-be9b-0ef6573808fb.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU4ODIwNzYsIm5iZiI6MTcwNTg4MTc3NiwicGF0aCI6Ii8xMjY4MzA0MDgvMjk4MDg5MjAyLWI1NmIzNjBiLWNhMDEtNDkzOC1iZTliLTBlZjY1NzM4MDhmYi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMlQwMDAyNTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNWM0OGE5NDMwNmFkZTZkMGY3Mzk0MWYxYzM4ODQ0ZThmMmY0NzdlOWM3Yjk0ZDM2NWUyNDkwNWRkNzZkMWZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.HtSh6CQP82IJLkvA32o_u0uJYNuPvRg00lgIZEpDUa4",
+    image: calculatorImg,
     tags: [
       "React",
       "HTML",
@@ -343,8 +345,7 @@ export const projects = [
     date: "Aug 2023 - Set 2023",
     description:
       "Introducing the To-Do List App, a versatile and streamlined application built with React to help you organize your tasks and boost productivity. This intuitive app provides a user-friendly interface and essential features to keep your to-do's in check.",
-    image:
-      "https://private-user-images.githubusercontent.com/126830408/298092686-e45d1a66-236f-4f28-a4c8-f13e860cb7db.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU4ODIwNDQsIm5iZiI6MTcwNTg4MTc0NCwicGF0aCI6Ii8xMjY4MzA0MDgvMjk4MDkyNjg2LWU0NWQxYTY2LTIzNmYtNGYyOC1hNGM4LWYxM2U4NjBjYjdkYi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMlQwMDAyMjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMmVlNGUyNmVlMjAyODNlN2VhMjIxM2RkMjA2ZDdhOTVjODkyZWU0NGJmMTIwMTJhNDdiNjJkZWUxOWNlMTUzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.yopJc6BvFZfcX-YPWSkVxw-xXfh-i81SL3XEnuJyEG4",
+    image: todolistImg,
     tags: ["React", "React Hooks", "JavaScript", "CSS", "HTML"],
     category: "Web App",
     github: "https://github.com/RECdigo/todolist",
@@ -356,8 +357,7 @@ export const projects = [
     date: "Mai 2023 - Jun 2023",
     description:
     "Experience the ultimate convenience in food ordering with our intuitive app. Elevate your dining choices as you explore a diverse menu of culinary delights. Navigate seamlessly through the user-friendly interface, and indulge in a hassle-free payment process. From choosing your favorite dishes to tracking your orders in real-time, our app ensures a delightful and efficient experience. Savor the flavors of innovation and simplicity, all crafted for your culinary pleasure.",
-    image:
-      "https://private-user-images.githubusercontent.com/126830408/298423958-ebe7f89b-bf04-4805-9ff5-ad5429a46778.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU4ODE4OTgsIm5iZiI6MTcwNTg4MTU5OCwicGF0aCI6Ii8xMjY4MzA0MDgvMjk4NDIzOTU4LWViZTdmODliLWJmMDQtNDgwNS05ZmY1LWFkNTQyOWE0Njc3OC5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMVQyMzU5NThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xOGFkNDBjYWM4YzAwZGM3NTJmZDgzMDYwNjE4MjA5NmEwZDgyM2Q1NWMyZGVkZGE1MDMxODVjODJmZTg4OGE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.VRcAUhnjstU0i5Qvbcjt3zKAh8bd_6m3fwpBQ0UTvjw",
+    image: foodImg,
     tags: ["React", "ReactRouter", "ResponsiveDesign", "JavaScript", "HTML"],
     category: "android app",
     github: "https://github.com/RECdigo/food",
@@ -369,8 +369,7 @@ export const projects = [
     date: "Apr 2023 - Mai 2023",
     description:
       "Welcome to the Amazon Clone, a sophisticated e-commerce application built with React and Firebase. This clone mirrors the functionality of the world-renowned Amazon platform, providing users with a seamless shopping experience, secure authentication, and convenient payment processing.",
-    image:
-      "https://private-user-images.githubusercontent.com/126830408/298099324-f952049c-e31c-499c-a680-4a88c6e9c50e.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU4ODIxMTIsIm5iZiI6MTcwNTg4MTgxMiwicGF0aCI6Ii8xMjY4MzA0MDgvMjk4MDk5MzI0LWY5NTIwNDljLWUzMWMtNDk5Yy1hNjgwLTRhODhjNmU5YzUwZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMlQwMDAzMzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05OTgzYjgzZjMyMWQ0MzllZjA1OWI1NGQwMTk4MGIxN2JlNTUxYWRhMWU4MTY5OWQ2MDEzMGU0NWNmMDM5MTU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.eNnW-oqRfEl9rOcy2ymhbbvrdlQEP_Tc-u_CvRMT8xI",
+    image: amazonImg,
     tags: ["React", "ReactRouter", "Firebase", "Stripe", "ResponsiveDesign", "JavaScript"],
     category: "android app",
     github: "https://github.com/RECdigo/amazonclone",
