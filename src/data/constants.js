@@ -4,6 +4,7 @@ import calculatorImg from "../images/Calculator.PNG"
 import todolistImg from "../images/Todolist.PNG"
 import weatherImg from "../images/WeatherApp.PNG"
 import foodImg from "../images/Food.PNG"
+import movie from "../images/Movie.PNG"
 
 export const Bio = {
   name: "Rodrigo Eccel Colombini",
@@ -290,6 +291,27 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 10,
+    title: "movies",
+    date: "fev 2024 - fev 24",
+    description:
+      "Welcome to our interactive movie selection app! With our innovative use of React, CSS animations, and Bootstrap, we've created an immersive experience for movie enthusiasts to explore and discover their next favorite films.",
+    image:movie,
+    tags: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "API DATA",
+      "Bootstrap",
+      "Icon",
+      "Swiper"      
+    ],
+    category: "web app",
+    github: "https://github.com/RECdigo/movie",
+    webapp: "https://recdigo.github.io/movie/",
+  },
   {
     id: 9,
     title: "QuizGame",
