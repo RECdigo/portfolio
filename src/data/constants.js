@@ -5,6 +5,7 @@ import todolistImg from "../images/Todolist.PNG"
 import weatherImg from "../images/WeatherApp.PNG"
 import foodImg from "../images/Food.PNG"
 import movie from "../images/Movie.PNG"
+import gamestore from '../images/Gamestore.PNG'
 
 export const Bio = {
   name: "Rodrigo Eccel Colombini",
@@ -291,6 +292,27 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 11,
+    title: "gamestore",
+    date: "fev 2024 - fev 24",
+    description:
+      "For this portfolio project, I immersed myself in the dynamic landscape of React.js to craft an innovative Game Shop Dashboard Website. Notable features include 1) An engaging animated side menu 2) A functional filter and search bar for smooth navigation 3) Add to Favorites functionality for a personalized user experience 4) An intuitive shopping bag/cart feature for convenient purchase 5) Vibrant animated section pages to captivate users 6) Sleek Neumorphism style for modern aesthetics 7) A dynamic carousel slider for showcasing products 8) An interactive video toggle for an enriched multimedia experience 9) Data fetching from a mock API for realistic content integration",
+    image:gamestore,
+    tags: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "API DATA",
+      "Bootstrap",
+      "Icon",
+      "Swiper"      
+    ],
+    category: "web app",
+    github: "https://github.com/RECdigo/gamestore",
+    webapp: "https://recdigo.github.io/gamestore/",
+  },
   {
     id: 10,
     title: "movies",
