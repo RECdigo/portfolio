@@ -6,6 +6,7 @@ import weatherImg from "../images/WeatherApp.PNG"
 import foodImg from "../images/Food.PNG"
 import movie from "../images/Movie.PNG"
 import gamestore from '../images/Gamestore.PNG'
+import sportcars from '../images/sportcars.PNG'
 
 export const Bio = {
   name: "Rodrigo Eccel Colombini",
@@ -293,8 +294,28 @@ export const education = [
 
 export const projects = [
   {
+    id: 12,
+    title: "Sport Cars",
+    date: "mar 2024 - mar 24",
+    description:
+      "The Sport Car App is an interactive web application designed for enthusiasts and fans of high-performance sports cars. Developed to provide an immersive experience, the app offers users a platform to explore, discover, and engage with a curated collection of premium sports cars.",
+    image:sportcars,
+    tags: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",      
+      "Icon",
+      "Media Query",
+      "Swiper"      
+    ],
+    category: "web app",
+    github: "https://github.com/RECdigo/sportcars",
+    webapp: "https://recdigo.github.io/sportcars/",
+  },
+  {
     id: 11,
-    title: "gamestore",
+    title: "Game Store",
     date: "fev 2024 - fev 24",
     description:
       "For this portfolio project, I immersed myself in the dynamic landscape of React.js to craft an innovative Game Shop Dashboard Website. Notable features include 1) An engaging animated side menu 2) A functional filter and search bar for smooth navigation 3) Add to Favorites functionality for a personalized user experience 4) An intuitive shopping bag/cart feature for convenient purchase 5) Vibrant animated section pages to captivate users 6) Sleek Neumorphism style for modern aesthetics 7) A dynamic carousel slider for showcasing products 8) An interactive video toggle for an enriched multimedia experience 9) Data fetching from a mock API for realistic content integration",
@@ -315,7 +336,7 @@ export const projects = [
   },
   {
     id: 10,
-    title: "movies",
+    title: "Movies",
     date: "fev 2024 - fev 24",
     description:
       "Welcome to our interactive movie selection app! With our innovative use of React, CSS animations, and Bootstrap, we've created an immersive experience for movie enthusiasts to explore and discover their next favorite films.",
@@ -336,7 +357,7 @@ export const projects = [
   },
   {
     id: 9,
-    title: "QuizGame",
+    title: "Quiz Game",
     date: "Nov 2023 - Dez 2023",
     description:
       "Welcome to an exciting quiz game built with React! Test your knowledge across various categories as you progress through different levels of difficulty. This app offers a thrilling experience with a time constraint for each question, adding an extra layer of challenge. Challenge yourself to reach the ultimate level and become a trivia master!",
