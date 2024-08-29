@@ -82,7 +82,7 @@ const index = () => {
                 <Desc>
                 Passionate and adaptable professional with a proven track record in 
                 logistics, supply chain and project managament with more than 20 years work experience, 
-                eager to pivot towards a dynamic career in frontend development. Aiming to combine my analytical 
+                eager to pivot towards a dynamic career in MERN development. Aiming to combine my analytical 
                 prowess, attention to detail, leadership, problem solving, logical thinking and project management skills honed in my 
                 carrier with a newfound passion for coding. Aspiring to contribute 
                 innovative solutions and user-centric designs in a collaborative team 
